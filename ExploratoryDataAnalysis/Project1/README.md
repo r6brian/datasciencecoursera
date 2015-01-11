@@ -1,4 +1,4 @@
-Plotting various graphs from electric power consumption.
+## Plotting various graphs from electric power consumption.
 
 Loading Electric power consumption Dataset from UC Irvine Machine Learning Repository, 
 a popular repository for machine learning datasets and saving the file locally. This file measures of electric power 
