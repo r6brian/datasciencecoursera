@@ -62,4 +62,4 @@ combinedXYSubectDataSet <- cbind(xExtractedData,yMerged,subjectMerged)
 cleanXYSubjectDataSet <-ddply(combinedXYSubectDataSet, .(subject, activity), function(x) colMeans(x[,1:79]))
 
 # writing file to local drive
-write.table(cleanXYSubjectDataSet, file = "./cleanSubjectActivityData.txt")
+write.table(cleanXYSubjectDataSet, file = "./cleanSubjectActivityData.txt", row.name=FALSE)
