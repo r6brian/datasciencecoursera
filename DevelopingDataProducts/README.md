@@ -1,5 +1,9 @@
 This Shiny App developed for the Coursera John Hopkins course on Developing data products. 
 
+The two folders contain the following:
+ - source code for the slide presentation created in rPresentation
+ - source code for the shiny app
+
 The project is on Shiny User Showcase page (Shiny Apps with popular appeal):   
 [Stock Values](https://r6brian.shinyapps.io/stockValues).
 
